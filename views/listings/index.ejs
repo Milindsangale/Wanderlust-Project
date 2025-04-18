@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>All Listings</h1>
-
+    <form method="GET" action="/listings/new">
+        <button>Create new Listing</button>
+    </form>
 <ul>
     <% for(let listing of alllistings) { %>
         <li><a href="/listings/<%= listing._id  %>"><%= listing.title %></a></li>
