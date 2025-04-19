@@ -345,6 +345,46 @@ const sampleListings = [
       location: "Costa Rica",
       country: "Costa Rica",
     },
+    {
+      title: "Cozy Studio Near Asakusa Temple",
+      description:
+        "Stay in a peaceful studio just steps away from the historic Senso-ji Temple. Ideal for cultural explorers.",
+      image:
+        "https://images.unsplash.com/photo-1604503468502-287be0f87a1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW8lMjByb29tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      price: 1500,
+      location: "Asakusa, Tokyo",
+      country: "Japan"
+    },
+    {
+      title: "Luxury Penthouse in Roppongi Hills",
+      description:
+        "Enjoy Tokyo skyline from a luxurious penthouse in Roppongi. High-end dining and nightlife at your doorstep.",
+      image:
+        "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm9wcG9uZ2klMjB0b2t5b3xlbnwwfHwwfHx8&auto=format&fit=crop&w=800&q=60",
+      price: 4800,
+      location: "Roppongi, Tokyo",
+      country: "Japan"
+    },
+    {
+      title: "Minimalist Loft in Shinjuku",
+      description:
+        "Live like a local in this stylish loft right in the heart of Shinjuku. Walk to shops, parks, and great eats.",
+      image:
+        "https://images.unsplash.com/photo-1588854337113-3c0f6f00aab5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hpbmp1a3UlMjBsb2Z0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      price: 2000,
+      location: "Shinjuku, Tokyo",
+      country: "Japan"
+    },
+    {
+      title: "Traditional Ryokan-Style Home in Setagaya",
+      description:
+        "Blend old and new in this peaceful ryokan-style home. Quiet neighborhood, great for families or solo travelers.",
+      image:
+        "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8anBhbmVzZSUyMHJ5b2thbnxlbnwwfHwwfHx8&auto=format&fit=crop&w=800&q=60",
+      price: 1700,
+      location: "Setagaya, Tokyo",
+      country: "Japan"
+    },
   ];
   
   module.exports = { data: sampleListings };
