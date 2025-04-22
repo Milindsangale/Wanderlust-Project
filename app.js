@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app= express();
-const port = 3000;
+const port = 8080;
 const Listing = require('./models/listing.js');
 const path = require('path');
 const methodOverride = require('method-override');
