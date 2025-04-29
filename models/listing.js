@@ -8,6 +8,7 @@ const listingSchema = new Schema({
     title:{
         type:String,
         required:true,
+       
     },
     description:{
         type:String,
