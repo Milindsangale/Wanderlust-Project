@@ -98,6 +98,6 @@ app.get("/testlistings", async(req, res) => {
     res.send("Sample listing saved to database.");
 }); */
   app.listen(port, () => {
-      console.log(`Example app listening on port ${port}`)
+      console.log(`Wanderlust app listening on port ${port}`)
     });
     
